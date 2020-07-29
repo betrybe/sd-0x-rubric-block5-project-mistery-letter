@@ -47,9 +47,9 @@ function createLetter() {
             cartaGerada.appendChild(span);
         }
 
-        reloadEventListenerSpans();
+        // reloadEventListenerSpans();
 
-        cartaContador.innerHTML = words.length;
+        // cartaContador.innerHTML = words.length;
     }   
 }
 
