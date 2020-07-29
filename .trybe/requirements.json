@@ -12,7 +12,7 @@
       "description": "Ao criar uma carta através do botão `id=\"criar-carta\"`, o `input` com `id=\"carta-texto\"` deve permanecer com o texto digitado",
       "bonus": false
     },{
-      "description": "Se o usuário não preencher o campo ou preencher com apenas espaços vazios adicionar a mensagem \"Por favor, digite o conteúdo da carta.\"",
+      "description": "Se o usuário não preencher o campo ou preencher com apenas espaços vazios adicionar a mensagem 'Por favor, digite o conteúdo da carta.'",
       "bonus": false
     },{
       "description": "Crie a classe `newspaper`",
