@@ -47,9 +47,9 @@ function createLetter() {
             cartaGerada.appendChild(span);
         }
 
-        // reloadEventListenerSpans();
+        reloadEventListenerSpans();
 
-        // cartaContador.innerHTML = words.length;
+        cartaContador.innerHTML = words.length;
     }   
 }
 
@@ -59,9 +59,9 @@ botaoTexto.addEventListener('click', createLetter);
 function reloadEventListenerSpans() {
     let wordSpans = document.querySelectorAll('p#carta-gerada > span');
 
-    // wordSpans.forEach(function(wordSpan) {
-    //     wordSpan.addEventListener('click', function() {
-    //         // wordSpan = applyClassName(wordSpan);
-    //     });
-    // });         
+    wordSpans.forEach(function(wordSpan) {
+         wordSpan.addEventListener('click', function() {
+             wordSpan = applyClassName(wordSpan);
+         });
+     });         
 }
