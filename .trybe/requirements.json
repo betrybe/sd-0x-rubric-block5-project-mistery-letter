@@ -45,6 +45,9 @@
       "description": "Crie a classe `skewright`",
       "bonus": false
     },{
+      "description": "Adicione as classes de forma aleatória a fim de estilizar as palavras.",
+      "bonus": false
+    },{
       "description": "Com uma carta misteriosa gerada, adicione a possibilidade de alterar o estilo de uma palavra específica ao clicar nela",
       "bonus": true
     },{
